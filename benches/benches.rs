@@ -77,7 +77,7 @@ fn fib_rec(c: &mut Criterion) {
             fib_rec
                 .call(
                     black_box(&mut store),
-                    black_box(&[Val::I64(32)]),
+                    black_box(&[Val::I64(40)]),
                     black_box(&mut results),
                 )
                 .unwrap();
